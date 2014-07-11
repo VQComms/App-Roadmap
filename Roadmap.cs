@@ -292,7 +292,7 @@ namespace Roadmap
 
             builder.AppendFormat("<div data-id='{0}' class='version-box' style='margin-left:{1}px'>", version.Id, level * 10);
             
-            builder.AppendFormat("<span class='title'>{0}</span>", version.Name);
+            builder.AppendFormat("<span class='title'>{0} ({1})</span>", version.Name, version.Label);
             
             builder.Append("</div></a></li>");
 
